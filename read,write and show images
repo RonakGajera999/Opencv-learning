@@ -1,0 +1,16 @@
+{Basic Note: 
+Every time we need to select project interpreter when we created new project. 
+  file menu-- setting-- project-- project interpreter--python or other as per requirment.}
+  
+Read images: first we load to image in our project.
+  1) Go to the image which you want to show on. copy it and paste in console wher our file derectory made in left side.
+  
+  
+ import cv2
+ 
+ cv2.imread('xyz.jpg', 0)-- 0 = Black and white images (💀)    
+                            1 = Color images (🌈 )
+                           -1 = copy same as in origin. (🕧)
+     > Note: If you give incorrect file name then it will shows you output as "None", Which shows some mistake there.
+ print(img)
+     > OUTPUT: We shows the matrix form with numeric data, which is actually shows pixels of picture which we want to describe in above function.
