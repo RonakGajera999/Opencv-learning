@@ -1,0 +1,24 @@
+What is open cv?
+It is open source software library, which can use in C,C++,Python and java programming language for Computer Vision and Machine learning.
+The Bsd license give us to freebee use in different environment.
+
+Developer of this library?
+Origneally developed by intel and till 2013 it was maintained by Willow Garage until 2013, Now its maintained by intel department.
+
+When different version come in the market?
+ First version 1.0 in 2006
+ Second version 2.0 in 2009- it was calld as "Gold".
+ Third version 3.0 in  June 2015
+ 
+ Applications: Facial Recognization,             Camera Calibrartion
+               3D-Functionality,                 Very fast Filters
+               Hair Classifiers,                 Self Motion Automation-Photogrammetry
+               Gesture Recognition,              Human-Computer interaction 
+               Mobile Robots,                    Segmentation and Detection
+               Steroscopicvision,                Optical Tracking
+               Kalman Filter,                    Motion Compensation & Optical Flow
+       
+Which Libraries includes in opencv using for ML.
+ 1) Boosting  2)Decision Tree  3)EM Algorithms 4)K-Nearest Neighbour  5) Naive Byes 6) Artificial Neural Network and many more..
+ 
+ 
