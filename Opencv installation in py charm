@@ -1,0 +1,21 @@
+Installation Opencv for python in windows os.
+  1) We need install python:
+     -https://www.python.org/
+     -Then click on windows and go new version there is (Download Windows x86 executable installer) we shows and download it.
+     -After downloading start installing process. select all option features it shows in first window.
+     - next page is advance options: Left only last two which shows download debug options and binary download, all othe we can select and then go to file path . you choose in c drive where you want,then click install.
+     
+  2) Opencv Installation:  (Windows 10 or later)
+     - Open windows command prompt using windows search. 
+     - (pip install opencv-python) write this in command shell and press enter you show download start.
+     -- Cheking correct installation
+         write (python) and press enter
+         write (import cv2) and press enter
+         if it shows any things which means downloading error otherwise its perfectly download for using programming.
+         
+ Cheking Version of what we have download:
+   pip--version
+   python--version
+   cv2.__Version__ 
+    write above code in command shell, visual studio code or other.
+        
