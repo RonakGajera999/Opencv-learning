@@ -5,7 +5,7 @@ Every time we need to select project interpreter when we created new project.
 Read images: first we load to image in our project.
   1) Go to the image which you want to show on. copy it and paste in console wher our file derectory made in left side.
   
-  
+ ############################################### 
  import cv2
  
  cv2.imread('xyz.jpg', 0)-- 0 = Black and white images (💀)    
@@ -13,4 +13,17 @@ Read images: first we load to image in our project.
                            -1 = copy same as in origin. (🕧)
      > Note: If you give incorrect file name then it will shows you output as "None", Which shows some mistake there.
  print(img)
-     > OUTPUT: We shows the matrix form with numeric data, which is actually shows pixels of picture which we want to describe in above function.
+     > OUTPUT: We shows the matrix form with numeric data, which is actually shows pixels of picture which we want to describe in 
+               above function.
+  ###################################################
+  Show image:
+  
+  cv2.imshow('image', img) === image is a window which create by us to show images, but using this we see only blink on screen. Picture comes 
+                               only milisecond time period so that we use other keyword is,
+  cv2.waitKey(5000)        === 5 second delay for pic.
+  cv2.destroyAllWindows()  === All windows closed using this keyword.
+  cv2.destroyWindows()     === Using this only particular windows we can destroy.
+  cv2.waitKey(0)           === 0 means picture never disaapear without click on delete window. its stay permanently on running windows.
+  cv2.imwrite('xyz-copy.jpg', img)=== This can creat duplicate file in same project.
+  
+  
